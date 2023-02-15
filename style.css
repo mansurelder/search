@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+.search {
+  border: none;
+  background: none;
+}
+
+img {
+  width: 17px;
+  position: absolute;
+  top: 15px;
+  right: 80px;
+}
+
+.search_input {
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px 0 black;
+  border: none;
+  border: 1px solid black;
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+}
+
+main {
+  background-color: #404DE6;
+  padding: 50px;
+}
+
+.search_input:focus {
+  width: 200px;
+  position: absolute;
+  left: 960px;
+  transition: 1s;
+}
